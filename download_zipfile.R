@@ -9,6 +9,6 @@ if(!file.exists("./data")){
 
 zipfileUrl = "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 zipfile.name = "./data/dataset.zip"
-download.file(zipfileUrl, destfile= zipfile.name, method= "curl")
+download.file(zipfileUrl, destfile= zipfile.name)
 unzip(zipfile.name)
 write(date(), file = './data/download_date.txt')
