@@ -58,7 +58,7 @@ Frame (after the melt and cast).
 
 ### 3. A Codebook for the tidy data
 
-A [codebook for the final tidy data in Markdown format]()
+A [codebook for the final tidy data](CodeBook.md) in Markdown format
 
 ### 4. Final words
 
