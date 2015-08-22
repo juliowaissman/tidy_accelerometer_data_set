@@ -11,7 +11,7 @@ In order to use the `run_analysis.R` you need to run this script frist like
 > source('download_zipfile.R')
 ```
 
-The was added in the `.gitingnore` file in order to keep this repository only with code
+The `data` directory was added in the `.gitingnore` file in order to keep this repository only with code
 and avoid to load GitHub with data available in other places.
 
 The data is un compressed in the directory `UCI HAR Dataset`, also
@@ -37,9 +37,28 @@ variable to factor (the activity variable).
 
 ### 2. Tidying the data
 
+In order to cleaning the dataset and obtain the tidy data a script
+named `run_analysis.R` was developed. In order to run this script you
+have to use the `source` command:
+
+```
+> source('run_analysis.R')
+```
+
+After running the script we expect:
+
+- A Data Frame called `tidy.final.data` with the DataFrame required in
+the project specifications (step 5).
+
+- A file called `intermediate_tidy.txt` with the intermediate Data
+Frame (after the melt and cast).
+
+- A file called `final_tidy.txt` with the final Data Frame.
+
 
 ### 3. A Codebook for the tidy data
 
+A [codebook for the final tidy data in Markdown format]()
 
 ### 4. Final words
 
